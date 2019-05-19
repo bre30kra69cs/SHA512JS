@@ -1,0 +1,41 @@
+{
+  "name": "sha512sha512",
+  "version": "4.5.3",
+  "description": "This pkg is light and understandable JS implementation of SHA-512 \u001b[C\u001b[\u001b[C\u001b\u001b[C\u001b[C\u001b[C2 algorithm.",
+  "main": "index.js",
+  "scripts": {
+    "babel": "npx babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://AndjeyS@bitbucket.org/AndjeyS/cr-sha-512-js.git"
+  },
+  "keywords": [
+    "SHA-512",
+    "SHA512",
+    "Crypto",
+    "Algorihm",
+    "Ramda",
+    "BigNumber",
+    "hash",
+    "hashing",
+    "easy",
+    "simple",
+    "cryptography",
+    "checksums",
+    "Functional programming"
+  ],
+  "author": "Andrey Krasovsky",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0"
+  },
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "lodash": "^4.17.11",
+    "ramda": "^0.25.0"
+  }
+}
